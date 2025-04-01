@@ -39,6 +39,6 @@ $("#btn").on("click" , function() {
  
 
     if(isvalid){
-        document.writeln("Login successful !");
+        alert("Login successful !");
     }
 });
