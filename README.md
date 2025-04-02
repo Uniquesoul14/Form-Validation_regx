@@ -23,7 +23,10 @@ This project provides a **form validation system** using **JavaScript** with an 
 ## 📽️ Video Demo
 
 
-https://github.com/user-attachments/assets/a8d5730f-317b-44f0-8ff9-3a9da8f675be
+https://github.com/user-attachments/assets/f297304b-dfd7-4dd8-8c2d-16d4de85f150
+
+
+
 
 
 
