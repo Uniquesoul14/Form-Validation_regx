@@ -2,7 +2,6 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: montserrat;
 }
 
 body img {
@@ -15,7 +14,12 @@ body img {
 .form-container {
     height: 470px;
     width: 370px;
-    background: #23828e;
+    background: rgba( 255, 255, 255, 0.2 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 0.5px );
+    -webkit-backdrop-filter: blur( 0.5px );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
     transform: translate(-50%, -50%);
     position: absolute;
     display: flex;
@@ -23,7 +27,6 @@ body img {
     left: 50%;
     top: 50%;
     padding: 20px 10px;
-    border-radius: 10px;
     box-shadow: whitesmoke;
     border: 1px solid rgba(255, 255, 255, 0.2);
 }
@@ -35,9 +38,12 @@ body img {
     margin: 13px auto;
     padding: 0 15px;
     border: none;
+    background: rgba( 255, 255, 255, 0.2 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 0.5px );
+    -webkit-backdrop-filter: blur( 0.5px );
     border-radius: 10px;
-    background-color: rgba(255, 255, 255, 0.9);
-    border: 1px solid grey;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
     box-shadow: inset 0 2px 5px rgba(0,0,0,0.1);
     font-size: 18px;
     transition: all 0.3s ease;
@@ -46,7 +52,7 @@ body img {
  
 .error {
     width: 85%;
-    color: #ff3333;
+    color: #000000;
     margin: 0 auto 5px;
     font-size: 13px;
     text-align: left;
